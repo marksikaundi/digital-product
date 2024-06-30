@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NavbarLinks } from "./NavbarLinks";
 
 export function Navbar() {
   return (
@@ -10,6 +11,7 @@ export function Navbar() {
           </h1>
         </Link>
       </div>
+      <NavbarLinks />
     </nav>
   );
 }
