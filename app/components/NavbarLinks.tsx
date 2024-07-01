@@ -1,4 +1,6 @@
-export const navbarLnks = [
+import Link from "next/link";
+
+const navbarLinks = [
   {
     id: 0,
     name: "Home",
@@ -19,13 +21,16 @@ export const navbarLnks = [
     name: "Icons",
     href: "#",
   },
-
 ];
 
 export function NavbarLinks() {
   return (
-    <div className="">
-      <h1>hello from navbar links</h1>
+    <div className="hidden md:flex justify-center items-center col-span-6 gap-x-2">
+      {navbarLinks.map((item) => (
+        <Link href={item.href} key={item.id}>
+          {item.name}
+        </Link>
+      ))}
     </div>
   );
 }
