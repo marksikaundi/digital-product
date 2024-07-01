@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { NavbarLinks } from "./NavbarLinks";
-import { use } from "react";
 import { usePathname } from "next/navigation";
 
 export function Navbar() {
