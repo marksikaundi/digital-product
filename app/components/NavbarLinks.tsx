@@ -5,19 +5,19 @@ export const navbarLinks = [
     href: "/",
   },
   {
+    id: 1,
+    name: "Templates",
+    href: "/#",
+  },
+  {
     id: 2,
-    name: "About",
-    href: "/about",
+    name: "UI Kits",
+    href: "#",
   },
   {
     id: 3,
-    name: "Services",
-    href: "/services",
-  },
-  {
-    id: 4,
-    name: "Contact",
-    href: "/contact",
+    name: "Icons",
+    href: "#",
   },
 ];
 
